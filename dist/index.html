@@ -126,8 +126,53 @@
         <!-- /.sidebar -->
         <main class="main">
             <div class="container">
+                <!-- Stories -->
                 
-                Hello!
+                <div class="stories">
+                  <div class="stories__item" data-modal="story-modal">
+                    <img class="stories__preview" src="assets/images/stories/stories-1.webp" alt="">
+                    <div class="stories__title">Отдыхаю на природе</div>
+                    <time class="stories__date" datetime="2020-09-21 19:21">2020-09-21</time>
+                  </div>
+                  <!-- ./stories__item -->
+                  <div class="stories__item">
+                    <img class="stories__preview" src="assets/images/stories/stories-2.webp" alt="">
+                    <div class="stories__title">Заканчиваю сложный проект</div>
+                    <time class="stories__date" datetime="2020-09-15 16:14">2020-09-15</time>
+                  </div>
+                  <!-- ./stories__item -->
+                  <div class="stories__item">
+                    <img class="stories__preview" src="assets/images/stories/stories-3.webp" alt="">
+                    <div class="stories__title">Переехал в новую квартиру</div>
+                    <time class="stories__date" datetime="2020-09-11 22:46">2020-09-11</time>
+                  </div>
+                  <!-- ./stories__item -->
+                  <div class="stories__item">
+                    <img class="stories__preview" src="assets/images/stories/stories-4.webp" alt="">
+                    <div class="stories__title">Осень пришла!</div>
+                    <time class="stories__date" datetime="2020-08-28 13:50">28.08.2020</time>
+                  </div>
+                  <!-- ./stories__item -->
+                </div>
+                <!-- /.stories -->
+                
+                <!-- Add post -->
+                <!-- It's for admin of the web-site. Textarea for fast posted someth -->
+                <!-- This area must be unvisible for users without admin's permissions -->
+                <div class="add-post">
+                  <form class="add-post__form" action="/" method="post">
+                    <textarea class="add-post__textarea" name="post-text" placeholder="Напишите что-нибудь" data-autoresize></textarea>
+                    <div class="add-post__form-actions">
+                      <label class="add-post__file" for="add-post-file">
+                        <input type="file" id="add-post-file">
+                      </label>
+                      <button class="add-post__send" type="submit">
+                        Отправить
+                      </button>
+                    </div>
+                  </form>
+                </div>
+                <!-- /.add-post -->
             </div>
         </main>
     </div>
