@@ -570,6 +570,12 @@ a:hover {
     z-index: 1000;
 }
 
+@media screen and (max-width: 991px) {
+    .sidebar {
+        display: none;
+    }
+}
+
 .sidebar__header {
     height: 180px;
     background-color: #121212;
@@ -597,6 +603,12 @@ a:hover {
 
 .main {
     padding: 10rem 0 8rem 300px;
+}
+
+@media screen and (max-width: 991px) {
+    .main {
+        padding-left: 0;
+    }
 }
 
 .container {
@@ -1440,8 +1452,7 @@ a:hover {
 }
 
 .modal {
-    display: -ms-flexbox;
-    display: flex;
+    display: none;
     -ms-flex-direction: column;
     flex-direction: column;
     -ms-flex-pack: center;
@@ -1456,6 +1467,11 @@ a:hover {
     top: 0;
     left: 0;
     z-index: 1010;
+}
+
+.modal.show {
+    display: -ms-flexbox;
+    display: flex;
 }
 
 .modal__content {
@@ -1499,7 +1515,7 @@ a:hover {
 .modal__close:hover {
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
-    opacity: 1;
+    opacity: 0;
 }
 
 .modal__footer {
