@@ -372,6 +372,10 @@ body {
     color: #fff;
 }
 
+body.no-scroll {
+    overflow: hidden;
+}
+
 *,
 *:before,
 *:after {
@@ -1398,4 +1402,130 @@ a:hover {
     line-height: 1.3;
     color: #fff;
     text-align: center;
+}
+
+.cabinet {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.cabinet__form {
+    width: 34rem;
+}
+
+.cabinet__avatar {
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    padding-left: 11rem;
+}
+
+.cabinet__avatar img {
+    display: block;
+    margin-bottom: 1.5rem;
+}
+
+.cabinet__file {
+    font-size: 1.4rem;
+    color: #3137C9;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.cabinet__file input {
+    display: none;
+}
+
+.cabinet__file:hover {
+    text-decoration: none;
+}
+
+.modal {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1010;
+}
+
+.modal__content {
+    width: 100%;
+    max-width: 500px;
+    padding: 8rem;
+    position: relative;
+    background-color: #202020;
+    border-radius: 5px;
+    opacity: 0;
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+    transition: opacity .2s ease-in-out, -webkit-transform .2s ease-in-out;
+    transition: transform .2s ease-in-out, opacity .2s ease-in-out;
+    transition: transform .2s ease-in-out, opacity .2s ease-in-out, -webkit-transform .2s ease-in-out;
+}
+
+.modal__content--contact {
+    padding-bottom: 2.5rem;
+}
+
+.modal__content--story {
+    padding: 0;
+    background: none;
+}
+
+.modal__close {
+    padding: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    opacity: .5;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    transition: opacity .2s linear, -webkit-transform .2s linear;
+    transition: transform .2s linear, opacity .2s linear;
+    transition: transform .2s linear, opacity .2s linear, -webkit-transform .2s linear;
+}
+
+.modal__close:hover {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    opacity: 1;
+}
+
+.modal__footer {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 4rem;
+    font-size: 1.2rem;
+    color: #B2B2B2;
+}
+
+.modal__footer li {
+    margin: 0 .5rem;
+}
+
+.modal__footer a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.modal__footer a:hover {
+    text-decoration: none;
+}
+
+.modal__video {
+    display: block;
+    margin: 0 auto;
 }
