@@ -7,21 +7,29 @@
 .related__list {
   display: flex;
   flex-wrap: wrap;
+
+  @include breakpoint($mobile-bp) {
+    flex-direction: column;
+  }
 }
 
 
 .related__list-item {
   width: 50%;
   margin-bottom: 2.5rem;
+
+  @include breakpoint($mobile-bp) {
+    width: 100%;
+  }
 }
 
 .related__list-title {
   font-size: 1.4rem;
   color: #F3EBA2;
   font-weight: 500;
-  text-overflow: ellipsis; //Три строки стилей далее, чтобы текст не переносился на вторую строку. "ellips" - до того как текст достигнет конца строки, в строку вставится символ "..." (многоточие)
-  overflow: hidden; //скрывает то, что выходит за пределы этого блока
-  white-space: nowrap; //запрещает перенос текста на новую строку
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 
   a {
     color: inherit;
