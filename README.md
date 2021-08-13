@@ -37,7 +37,8 @@ The template is based on HTML5/Sass. It was created with a task runner Gulp.
 ![JavaScript](https://img.shields.io/badge/JavaScript-14.5%25-f1e05a?logo=JavaScript&logoColor=f1e05a&style=for-the-badge)<br>
 
 - Through:<br>
-[![Gulp](https://img.shields.io/badge/Gulp-fa383e?style=for-the-badge&logo=Gulp&logoColor=fff)](https://gulpjs.com/)
+[![Gulp](https://img.shields.io/badge/Gulp-fa383e?style=for-the-badge&logo=Gulp&logoColor=fff)](https://gulpjs.com/)<br>
+[![NodeJS](https://img.shields.io/badge/Node.js-026e00?style=for-the-badge&logo=Node.js&logoColor=fff)](https://nodejs.org/)
 
 - IDE<br>
 ![VSCode](https://img.icons8.com/color/48/000000/visual-studio-code-2019.png)<br>
