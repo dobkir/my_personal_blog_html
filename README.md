@@ -81,4 +81,4 @@ Project Link: [https://github.com/dobkir/my_personal_blog_html](https://github.c
 [repo-size-shield]: https://img.shields.io/github/repo-size/dobkir/my_personal_blog_html.svg?style=for-the-badge
 [languages-shield]: https://img.shields.io/github/languages/count/dobkir/my_personal_blog_html.svg?style=for-the-badge
 [main-language-shield]: https://img.shields.io/github/languages/top/dobkir/my_personal_blog_html.svg?style=for-the-badge&color=e34c26
-[product-screenshot]: https://github.com/dobkir/trailers/blob/master/my_personal_blog_html_trailer/my_personal_blog_html_trailer.gif
+[product-screenshot]: https://github.com/dobkir/trailers/blob/master/personal_blog_html_trailer/personal_blog_html_trailer
