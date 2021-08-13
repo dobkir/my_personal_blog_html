@@ -33,7 +33,7 @@ The template is based on HTML5/Sass. It was created with a task runner Gulp.
 ![Main language][main-language-shield]
 
 - Others<br>
-![HTML5](https://img.shields.io/badge/HTML5-52.0%25-e34c26?logo=Html5&logoColor=e34c26&style=for-the-badge)<br>
+![SCSS](https://img.shields.io/badge/SCSS-33.0%25-bf4080?logo=Html5&logoColor=bf4080&style=for-the-badge)<br>
 ![JavaScript](https://img.shields.io/badge/JavaScript-14.5%25-f1e05a?logo=JavaScript&logoColor=f1e05a&style=for-the-badge)<br>
 
 - Through:<br>
@@ -80,5 +80,5 @@ Project Link: [https://github.com/dobkir/my_personal_blog_html](https://github.c
 [linkedin-url]: https://www.linkedin.com/in/pavel-kirillov-dobkir
 [repo-size-shield]: https://img.shields.io/github/repo-size/dobkir/my_personal_blog_html.svg?style=for-the-badge
 [languages-shield]: https://img.shields.io/github/languages/count/dobkir/my_personal_blog_html.svg?style=for-the-badge
-[main-language-shield]: https://img.shields.io/github/languages/top/dobkir/my_personal_blog_html.svg?style=for-the-badge&color=bf4080
+[main-language-shield]: https://img.shields.io/github/languages/top/dobkir/my_personal_blog_html.svg?style=for-the-badge&color=e34c26
 [product-screenshot]: https://github.com/dobkir/trailers/blob/master/my_personal_blog_html_trailer/my_personal_blog_html_trailer.gif
