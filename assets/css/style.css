@@ -1930,7 +1930,7 @@ a:hover {
 .modal__close:hover {
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
-    opacity: 0;
+    opacity: 1;
 }
 
 .modal__footer {
