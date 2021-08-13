@@ -17,6 +17,7 @@ const notify = require("gulp-notify");
 const webpack = require('webpack');
 const webpackStream = require('webpack-stream');
 const browserSync = require("browser-sync").create();
+const ghPages = require("gulp-gh-pages");
 
 
 /* Paths */
@@ -50,8 +51,6 @@ const path = {
     },
     clean: "./" + distPath
 }
-
-
 
 /* Tasks */
 
@@ -239,6 +238,11 @@ function clean(cb) {
     cb();
 }
 
+function deploy() {
+    return gulp.src('./dist/**/*')
+        .pipe(ghPages());
+};
+
 function watchFiles() {
     gulp.watch([path.watch.html], html);
     gulp.watch([path.watch.css], cssWatch);
@@ -261,6 +265,7 @@ exports.images = images;
 exports.videos = videos;
 exports.fonts = fonts;
 exports.clean = clean;
+exports.deploy = deploy;
 exports.build = build;
 exports.watch = watch;
 exports.default = watch;
