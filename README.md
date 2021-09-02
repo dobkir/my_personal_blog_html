@@ -33,7 +33,7 @@ The template is based on HTML5/Sass. It was created with a task runner Gulp.
 ![Main language][main-language-shield]
 
 - Others<br>
-![SCSS](https://img.shields.io/badge/SCSS-33.0%25-bf4080?logo=Html5&logoColor=bf4080&style=for-the-badge)<br>
+![SCSS](https://img.shields.io/badge/SCSS-33.0%25-bf4080?logo=SASS&logoColor=bf4080&style=for-the-badge)<br>
 ![JavaScript](https://img.shields.io/badge/JavaScript-14.5%25-f1e05a?logo=JavaScript&logoColor=f1e05a&style=for-the-badge)<br>
 
 - Through:<br>
