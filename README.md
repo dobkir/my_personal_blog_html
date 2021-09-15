@@ -18,7 +18,7 @@ This is an HTML template of the personal blog. The version made on ReactJS is av
 
 The site has a responsive design and is adapted for devices with different screen sizes.
 
-The template is based on HTML5/Sass. It was created with a task runner Gulp.
+The template is based on HTML5/SCSS. It was created with a task runner Gulp.
 
 <!-- LINK TO WEBSITE -->
 ## [Come here](https://dobkir.github.io/my_personal_blog_html/) to watch this website on your Web Browser
@@ -56,8 +56,8 @@ Distributed under the MIT License. See [LICENSE](LICENSE.txt) for more informati
 
 Project Link: [https://github.com/dobkir/my_personal_blog_html](https://github.com/dobkir/my_personal_blog_html)
 
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
 - [ICONS8](https://icons8.com/)
 - [Img Shields](https://shields.io)
 - [Choose an Open Source License](https://choosealicense.com)
